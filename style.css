@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    color: aliceblue;
+
+}
+
+body {
+    background-image: url('losangeles.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+
+ 
+}
+h1 {
+    color: slateblue;
+    font-weight:bolder;
+    font-size: 6rem;
+    margin-top: 2rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.big-text {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el {
+    text-align: center;
+
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
